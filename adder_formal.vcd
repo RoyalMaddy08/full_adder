@@ -1,0 +1,61 @@
+$date
+	Sun Mar  1 07:16:01 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder_top_formal_verification_random_tb $end
+$var wire 1 ! Sum_gfpga $end
+$var wire 1 " Sum_bench $end
+$var wire 1 # Cout_gfpga $end
+$var wire 1 $ Cout_bench $end
+$var reg 1 % A $end
+$var reg 1 & B $end
+$var reg 1 ' Cin $end
+$var reg 1 ( Cout_flag $end
+$var reg 1 ) Sum_flag $end
+$var reg 1 * clk $end
+$var reg 1 + sim_start $end
+$var integer 32 , nb_error [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 ,
+0+
+0*
+0)
+0(
+1'
+0&
+0%
+0$
+0#
+1"
+1!
+$end
+#1075
+1*
+#2150
+0!
+1#
+1$
+0"
+1&
+0*
+#3225
+1*
+#4300
+1!
+0#
+0$
+1"
+0&
+0*
+#4301

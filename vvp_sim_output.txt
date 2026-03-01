@@ -1,0 +1,6 @@
+vvp compiled_adder
+VCD info: dumpfile adder_formal.vcd opened for output.
+Simulation start
+Simulation Succeed
+././SRC/adder_formal_random_top_tb.v:139: $finish called at 4301 (1ps)
+0

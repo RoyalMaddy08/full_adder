@@ -1,0 +1,67 @@
+#Timing report of worst 2 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: B.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:Sum.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+B.inpad[0] (.input)                                              0.000     0.000
+$abc$92$new_n6_.in[0] (.names)                                   0.305     0.305
+$abc$92$new_n6_.out[0] (.names)                                  0.235     0.540
+Sum.in[0] (.names)                                               0.285     0.825
+Sum.out[0] (.names)                                              0.235     1.060
+out:Sum.outpad[0] (.output)                                      0.732     1.792
+data arrival time                                                          1.792
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.792
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.792
+
+
+#Path 2
+Startpoint: Cin.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:Cout.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+Cin.inpad[0] (.input)                                            0.000     0.000
+$abc$92$new_n9_.in[0] (.names)                                   0.399     0.399
+$abc$92$new_n9_.out[0] (.names)                                  0.235     0.634
+$abc$92$new_n10_.in[0] (.names)                                  0.100     0.734
+$abc$92$new_n10_.out[0] (.names)                                 0.235     0.969
+Cout.in[1] (.names)                                              0.100     1.069
+Cout.out[0] (.names)                                             0.235     1.304
+out:Cout.outpad[0] (.output)                                     0.451     1.755
+data arrival time                                                          1.755
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.755
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.755
+
+
+#End of timing report
