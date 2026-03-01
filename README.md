@@ -3,6 +3,7 @@ A Full Adder is a combinational circuit that adds two 1-bit binary numbers along
 
 # Boolean Equations
 Sum  = A ⊕ B ⊕ Cin
+
 Cout = (A·B) + (B·Cin) + (A·Cin)
 
 # Tool Credits
