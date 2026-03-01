@@ -1,5 +1,5 @@
 
-# Adder Project — OpenFPGA
+# Adder Project
 
 ## Author
 RoyalMaddy08
