@@ -1,11 +1,11 @@
-#Description
+# Description
 A Full Adder is a combinational circuit that adds two 1-bit binary numbers along with a carry input and produces a Sum and Carry-out. It is the fundamental building block of all arithmetic circuits like ALUs, multipliers, and processors.
 
-#Boolean Equations
+# Boolean Equations
 Sum  = A ⊕ B ⊕ Cin
 Cout = (A·B) + (B·Cin) + (A·Cin)
 
-#Tool Credits
+# Tool Credits
 Tool names appearing in generated files belong to their respective authors:
 
 University of Toronto → VPR (Place & Route)
